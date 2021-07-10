@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,700i,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="scoreboard" id="scoreboard">
+        <div class="badge" id="user-label">user</div>
+        <div class="badge" id="ai-label">ai</div>
+        <span id='user-score'>0</span>:<span id='ai-score'>0</span>
+    </div>
+
+    <div class="game_status">
+        <p>Three... Two... One... Go!</p>
+    </div>
+    <div class="choices">
+        <div class='choice' id="rock">
+            <img src="./img/rock.png" alt="rock" />
+        </div>
+        <div class='choice' id="paper">
+            <img src="./img//paper.png" alt="paper" />
+        </div>
+        <div class='choice' id="scissors">
+            <img src="./img//scissors.png" alt="scissors" />
+        </div>
+    </div>
+    <div id="action-message">
+        <p>Make your move! </p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
